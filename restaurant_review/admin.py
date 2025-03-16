@@ -1,9 +1,10 @@
 from django.contrib import admin
 
-from .models import Restaurant, Review, Snippet
+from .models import Restaurant, Review, SillaUser, SillaProject
 
 # Register your models here.
 
 admin.site.register(Restaurant)
 admin.site.register(Review)
-admin.site.register(Snippet)
+admin.site.register(SillaProject)
+admin.site.register(SillaUser)
